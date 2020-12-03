@@ -1,0 +1,127 @@
+.carousel {
+  position: unset;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar-dark {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  float: right;
+  font-size: 20px;
+}
+
+.carousel-item {
+  max-height: 100vh;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255) !important;
+  margin-left: 3em;
+}
+
+.brand {
+  width: 20px;
+  color: white !important;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+
+h1 span {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pic {
+  height: 350px;
+  border-radius: 10%;
+  margin: 4%;
+}
+
+.pics {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.pic:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.container-fluid {
+  margin-top: 7em;
+}
+
+.container-fluid.footer {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  font-size: 0.8em;
+  color: #ffffff;
+}
+
+.turm {
+  width: 40%;
+}
+
+.container-fluid.btm {
+  background-color: rgb(248, 248, 248);
+  padding: 15px;
+  font-size: 0.8em;
+  color: #000000;
+}
+
+.right {
+  float: right;
+}
+
+.fa {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-md-6.info {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.col-lg-6.text {
+  text-align: center;
+}
+
+.col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.price {
+  font-size: 20px;
+  margin-top: 1em;
+}
+
+.container-fluid.footerr {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  font-size: 0.8em;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.fa.fa-facebook-square {
+  padding-right: 1em;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30% !important;
+  height: 30% !important;
+}
